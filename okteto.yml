@@ -1,0 +1,17 @@
+name: books
+image: 
+   # okteto will automatically build this image if it's missing
+  name: okteto.dev/books:dev
+  target: dev
+command: bash
+volumes:
+- /home/gradle/.gradle
+sync:
+- .:/usr/src/app
+forward:
+- 5005:5005
+- 8080:8080
+resources:
+  limits:
+    cpu: "1"
+    memory: 2Gi

@@ -1,0 +1,5 @@
+.gitignore
+.stignore
+README.md
+okteto.yml
+okteto-stack.yaml
