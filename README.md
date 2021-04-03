@@ -29,7 +29,7 @@ Working in your development container is the same as working on your local machi
 You can build and start the application by running the following command:
 
 ```console
-cindy:books app> `gradle bootRun`
+cindy:books app> gradle bootRun
 ```
 
 This command builds both the java and react components of the application and serves everything using Tomcat over port 8080.  With the application running, go back to the browser, and reload the page to test that your application is running.
