@@ -9,7 +9,7 @@ class BookList extends Component {
             <ul id="book-list">
                 {this.props.books.map(b => (
                     <li key={b.id}>
-                        {b.title} - {b.author}
+                        {b.title} | {b.author}
                     </li>
                 ))}
             </ul>
